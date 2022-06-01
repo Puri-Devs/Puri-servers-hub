@@ -99,6 +99,18 @@
         function uploadImage2() {
           $("#plik").click();
         }
+        function stitle(){
+            if (t == 1){
+                t = 2
+            }
+            else if (t == 2){
+                t = 3
+            }
+            else if (t == 3){
+                t = 1
+            }
+            $("#title").text("Test: " + t)
+        }
         $(document).ready(function () {
           $("#plik").change(function (e) {
             var fileName = e.target.files[0].name;
@@ -109,6 +121,7 @@
             }*/
             $("#wyslij-plik").click();
           });
+          setInterval(stitle(), 400);
         });
       </script>
       <script>
