@@ -26,6 +26,7 @@ body {
 
 .navbar {
   position: fixed;
+  top: 0;
   height: 8vh;
   width: 100%;
   background-color: black;
