@@ -24,3 +24,13 @@ body {
   }
 }
 
+:root {
+  --bs-gray-550: #6c757d;
+}
+
+.fit-cover.contributor-klb {
+  margin-left: -21px;
+  border-radius: 1.5rem !important;
+  width: 100%;
+}
+
