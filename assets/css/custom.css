@@ -1,0 +1,26 @@
+body {
+  background-image: url("../../assets/img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 992px) {
+  .con {
+    border-style: solid;
+    border-radius: 25px;
+    justify-content: center;
+    min-width: 860px;
+  }
+}
+
+@media (max-width: 992px) {
+  .con {
+    border-style: solid;
+    border-radius: 25px;
+    justify-content: center;
+    width: 90%;
+  }
+}
+
