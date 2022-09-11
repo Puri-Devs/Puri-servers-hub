@@ -154,3 +154,7 @@ button.scroll_down:before {
     align-items: center;
     text-align: center;
 }
+
+.LImage{
+  width: 35%;
+}
