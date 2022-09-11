@@ -52,13 +52,13 @@ button.scroll_down {
   right: 0;
   height: 50px;
   width: 30px;
-  bottom: 60px;
+  bottom: 107px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 20px;
   cursor: pointer;
   outline: none;
-  top: 22px;
+  /* top: 100px; */
 }
 button.scroll_down:before {
   position: absolute;
