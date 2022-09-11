@@ -7,7 +7,7 @@
     var windowCoords = document.documentElement.clientHeight;
     (function scroll() {
       if (window.pageYOffset < windowCoords) {
-        window.scrollBy(0, 10);
+        window.scrollBy(0, 15);
         setTimeout(scroll, 0);
       }
       if (window.pageYOffset > windowCoords) {
