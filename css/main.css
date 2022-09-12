@@ -190,3 +190,24 @@ button.scroll_down:before {
       border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+.Card{
+  max-width: 250px;
+  border-radius: 25px !important;
+  border: solid;
+  border-color: white;
+  background-color: #232529;
+}
+
+.P5{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.P2{
+  padding-bottom: 2vh;
+}
+
+.px5{
+  padding-bottom: 5px;
+}
