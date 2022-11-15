@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 nav {
   background-color: #33394c;
@@ -22,7 +22,7 @@ body {
 }
 
 section {
-    height: 90vh;
+  height: 90vh;
 }
 
 #logo2 {
@@ -32,11 +32,11 @@ section {
   position: relative;
 }
 
-div.waves{
-    position: fixed;
-    /*top: 63.1vh;*/
-    bottom: -3px;
-    width: 100vw;
+div.waves {
+  position: fixed;
+  /*top: 63.1vh;*/
+  bottom: -3px;
+  width: 100vw;
 }
 
 /* External Addons */
@@ -66,22 +66,64 @@ button.scroll_down:before {
   margin-left: -3px;
   background-color: #fff;
   border-radius: 100%;
-  -webkit-animation: scroll_down_btn-animation 2s infinite;
-  animation: scroll_down_btn-animation 2s infinite;
   box-sizing: border-box;
+
+}
+
+button.scroll_down:hover:before{
+    -webkit-animation: scroll_down_btn-animation 2s infinite;
+    animation: scroll_down_btn-animation 2s infinite;
 }
 
 section div img {
-    padding-top: 10vh;
+  padding-top: 10vh;
 }
 
 nav img {
-    height: 6vh;
-    padding: 2vh;
+  height: 6vh;
+  padding: 2vh;
 }
 
 section h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+}
+
+/* Keyframes */
+@keyframes scroll_down_btn-animation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scroll_down_btn-animation {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
