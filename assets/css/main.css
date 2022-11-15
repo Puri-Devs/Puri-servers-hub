@@ -2,7 +2,13 @@
 
 nav {
   background-color: #33394c;
+  color: white;
   height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
 
 body {
@@ -82,6 +88,10 @@ section div img {
 nav img {
   height: 6vh;
   padding: 2vh;
+}
+
+nav center h2{
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 section h2 {
