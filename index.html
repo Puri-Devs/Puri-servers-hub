@@ -1,17 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puri hub</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Puri</title>
+        <link rel="shortcut icon" href="https://i.imgur.com/2vLJzvv.png" type="image/x-icon">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- JS -->
-    <script src="assets/js/main.js"></script>
-</head>
-<body>
-    <!-- HTML -->
-</body>
-</html>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- JS -->
+        <script src="assets/js/main.js"></script>
+    </head>
+    <body>
+        <!-- HTML -->
+        <nav>
+            <img src="assets/images/logo.png">
+        </nav>
+        <section>
+            <div id="background"></div>
+            <div>
+                <img src="assets/images/logo.png" id="logo2">
+            </div>
+            <!--Waves Container-->
+            <div class="flex waves" style="/*position: relative;top: 0.1vh;*/">
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+                </defs>
+                <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(47, 57, 77,0.7"></use>
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(47, 57, 77,0.5)"></use>
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(47, 57, 77,0.3)"></use>
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#2F394D"></use>
+                </g>
+                </svg>
+            </div>
+            <h2>New Minecraft servers network!</h2>
+            <button type="button" class="scroll_down" id="scroll_down" style="/* position: relative; */"></button>
+            <div class="content2 flex"></div>
+            <!--Waves end-->
+        </section>
+    </body>
+    </html>

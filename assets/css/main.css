@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+nav {
+  background-color: #33394c;
+  height: 10vh;
+}
+
+body {
+  margin: 0;
+  background: #222222;
+  overflow: hidden;
+}
+
+#background {
+  background-color: #68aeb9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%234c939e' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  filter: blur(1px);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.4;
+  position: absolute;
+}
+
+section {
+    height: 90vh;
+}
+
+#logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+div.waves{
+    position: fixed;
+    /*top: 63.1vh;*/
+    bottom: -3px;
+    width: 100vw;
+}
+
+/* External Addons */
+button.scroll_down {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 30px;
+  bottom: 16.5vh;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  /* top: 100px; */
+}
+button.scroll_down:before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: scroll_down_btn-animation 2s infinite;
+  animation: scroll_down_btn-animation 2s infinite;
+  box-sizing: border-box;
+}
+
+section div img {
+    padding-top: 10vh;
+}
+
+nav img {
+    height: 6vh;
+    padding: 2vh;
+}
+
+section h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
