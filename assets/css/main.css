@@ -94,6 +94,14 @@ nav center h2{
     font-family: "Source Sans Pro", sans-serif;
 }
 
+nav div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
 section h2 {
   color: white;
   text-align: center;
