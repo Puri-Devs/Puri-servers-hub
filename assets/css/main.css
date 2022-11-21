@@ -29,6 +29,8 @@ body {
 
 section {
   height: 90vh;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #logo2 {
@@ -40,9 +42,17 @@ section {
 
 div.waves {
   position: fixed;
-  /*top: 63.1vh;*/
   bottom: -3px;
   width: 100vw;
+}
+
+.contributors {
+  font-size: 2em;
+  text-align: center;
+}
+
+.content {
+  padding-top: 20vh;
 }
 
 /* External Addons */
@@ -105,7 +115,6 @@ nav div{
 section h2 {
   color: white;
   text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
 }
 
